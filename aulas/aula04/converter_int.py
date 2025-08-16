@@ -1,10 +1,8 @@
 # Converter string para int
 num = input("Entre com um número: ")
 print(type(num))
-num = float(num)
+num = int(num)
 print(type(num))
 
-num = float(input("Entre com um número: "))
+num = int(input("Entre com um número: "))
 print(type(num))
-num_string = str(num)
-print(type(num_string))
