@@ -8,7 +8,7 @@ print("Exemplo 1 - Contando de 1 até 5:")
 for numero in range(1, 6):  # Gera: 1, 2, 3, 4, 5
     print(numero)
 
-for numero in range(6):  # Gera: 1, 2, 3, 4, 5
+for numero in range(6):  # Gera: 0,1, 2, 3, 4, 5
     print(numero)
 
 # ========================
