@@ -2,12 +2,12 @@
 # # Exercício 1 - Classificar transações bancárias
 
 #%% [code]
-# Definição do ano de nascimento (últimos 2 dígitos)
+
 ANO_2_DIGITOS = 6
 
 VALOR_TRANSACAO = 25000
 TIPO_TRANSACAO = "transferência"
-CODIGO_CLIENTE = "CL1234"
+CODIGO_CLIENTE = "CL3805"
 
 limite = 1000 * ANO_2_DIGITOS
 
@@ -54,7 +54,7 @@ else:
 #%% [code]
 
 codigo_falha ="F2"
-temperatura = 62
+temperatura = 65
 
 if codigo_falha == "F1" and temperatura < 40:
     print("Reiniciar máquina")
@@ -78,7 +78,7 @@ notas_avaliacao = [5, 8, 10, 6, 9, 4]
 
 for nota in notas_avaliacao:
     if nota > 7:
-        print(f"Cliente feliz - Nota: {nota}")
+        print(f"Nota: {nota}")
 
 
 #%% [markdown]
